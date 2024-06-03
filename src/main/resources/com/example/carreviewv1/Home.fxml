@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="home" prefHeight="524.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.carreviewv1.HomeController">
+   <children>
+      <JFXButton fx:id="btn_kia" alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="33.0" layoutY="55.0" onMouseClicked="#kiaAction" prefHeight="178.0" prefWidth="226.0" style="-fx-background-color: #2D3447;" text="KIA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img_kia" fitHeight="150.0" fitWidth="200.0" layoutX="46.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Kia.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn_volk" alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="329.0" layoutY="55.0" onMouseClicked="#vlokAction" prefHeight="178.0" prefWidth="226.0" style="-fx-background-color: #2D3447;" text="VOLKSWAGEN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img_volk" fitHeight="150.0" fitWidth="200.0" layoutX="346.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Wolksvagen.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn_peug" alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="329.0" layoutY="277.0" onMouseClicked="#peugAction" prefHeight="178.0" prefWidth="226.0" style="-fx-background-color: #2D3447;" text="PEUGEOT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img_peug" fitHeight="125.0" fitWidth="189.0" layoutX="352.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/peugeot.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn_renault" alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="43.0" layoutY="277.0" onMouseClicked="#renAction" prefHeight="178.0" prefWidth="218.0" style="-fx-background-color: #2D3447;" text="RENAULT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img_renault" fitHeight="106.0" fitWidth="200.0" layoutX="52.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/renault.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
